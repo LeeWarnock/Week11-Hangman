@@ -5,7 +5,13 @@ var Word = require('./word.js');
 prompt.start();
 
 game = {
-
+	wordBank : ["monitor", "program", "application", "keyboard", "javascript",
+	"gaming", "network", "geography", "cat", "yesterday", "java", "truck", "opportunity",
+	"fish", "token", "transportation", "bottom", "apple", "cake",
+	"remote", "pocket", "terminology", "arm", "cranberry", "tool",
+	"caterpillar", "spoon", "watermelon", "laptop", "toe", "toad",
+	"fundamental", "capitol", "garbage", "anticipate", "apple", "penispenispenis"],
+};
 	wordsWon : 0,
 	guessesRemaining : 10, //per word
 	currentWrd : null, //the word object
